@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+}
+ul .house::before{
+    background-image: url("../images/house-solid.png");
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+ul .file::before{
+    background-image: url("../images/file-solid.png");
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+ul .globe::before{
+    background-image: url("../images/globe-solid.png");
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+ul .star::before{
+    background-image: url("../images/star-solid.png");
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+ol {
+    /* list-style-type: lower-alpha; */
+    background: #ffeeeeee;
+    padding: 15px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 10px;
+    margin-left: 30px;
+}
+ul {
+    padding: 15px 15px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-left: 30px solid gray;
+    background-color: lightblue;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+table{
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
