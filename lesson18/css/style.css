@@ -1,0 +1,119 @@
+#translate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    transform: translate(100px, 50px);
+}
+
+#rotate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-top: 150px;
+    transform: rotate(90deg);
+}
+#scale {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 150px;
+    transform: scale(2,2);
+}
+
+#scaleX {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-left: 250px;
+    transform: scaleX(3);
+}
+#scaleY {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-left: 250px;
+    margin-top: 250px;
+    transform: scaleY(3);
+}
+
+#skewX {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    margin-top: 250px;
+    transform: skewX(-40deg);
+}
+
+#skewY {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 150px;
+    transform: skewY(-40deg);
+}
+
+#rotateX {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 150px;
+    transform: rotateX(-130deg);
+}
+
+#rotateY {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 150px;
+    transform: rotateY(-130deg);
+}
+
+#rotateZ {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 150px;
+    transform: rotateZ(-130deg);
+}
+
+#hover {
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: background 2s, border-radius 5s;
+}
+#hover:hover {
+    background: blue;
+    border-radius: 50%;
+}
