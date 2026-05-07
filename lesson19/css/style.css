@@ -8,6 +8,7 @@
     margin: 10px;
     padding: 20px;
     font-size: 35px;
+    height: 50px;
 }
 
 .contanier div:nth-child(1) {
@@ -20,6 +21,7 @@
 
 .contanier div:nth-child(3) {
     order: 0;
+    align-self: center;
 }
 
 .contanier div:nth-child(4) {
@@ -31,9 +33,16 @@
 }
 
 .contanier div:nth-child(1) {
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .contanier {
     flex-wrap: wrap-reverse;
+}
+
+.contanier {
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+    align-content: stretch;
 }
